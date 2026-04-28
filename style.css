@@ -40,6 +40,7 @@ right: 70px;
     border-radius: 20px;
     position: relative;
     right: 50px;
+    display: flex;
 
 }
 .text{
@@ -102,7 +103,7 @@ padding: 15px;
     justify-content: center;
 }
 .image img{
-    width: 80%;
+    width: 1100px;
 height: 500px;
 }
 .image__text{
@@ -281,7 +282,7 @@ margin-top: 20px;
 }
 
 .container{
-    width: 85%;
+    width:1100px;
     height: 450px;
     background-color: #eeecec;
     position: relative;
@@ -335,7 +336,7 @@ margin-top: 20px;
     padding-top: 100px;
 }
 .winner__img{
-    width:99%;
+    width:1350px;
     height: 550px;
 }
 .winner__text{
@@ -359,7 +360,7 @@ margin-top: 20px;
     display: flex;
     background-color: #eeecec;
     gap: 30px;
-    width: 85%;
+    width: 1100;
     margin-left: 50px;
     padding: 50px;
     height: 350px;
@@ -381,7 +382,7 @@ margin-top: 20px;
     position: relative;
 bottom: 230px;
 left: 100px;
-width: 1150px;
+width: 1100px;
 }
 .footer-2__1{
     display: flex;
@@ -396,4 +397,182 @@ width: 1150px;
     padding: 10px;
     position: relative;
     bottom: 10px;
+}
+@media screen and (max-width:800px) {
+body{
+    font-size: 10px;
+}
+.navbar{
+    font-size: 10px;
+}
+.navbar__s1{
+    width: 60px;
+}
+.navbar__s3{
+    font-size: 9.5px;
+}
+.navbar__s1{
+    margin-right: 200px;
+}
+.text{
+        font-size: 15px;
+    }
+    .categories{
+        font-size: 9px;
+    }
+    .searchbar{
+        width: 250px;
+        font-size: 9px;
+    }
+    .searchbar__input{
+        font-size: 9px;
+    }
+    .image{
+        width: 800px;
+    }
+    .image__text{
+        font-size: 12.5px;
+    }
+    .choices img{
+        width: 150px;
+        height: 150px;
+    }
+    .explore h4{
+        width: 200px;
+    }
+    .explore img{
+        width: 150px;
+        height: 150px;
+    }
+    .container{
+        width: 750px;
+        height: 300px;
+        align-items: center;
+    right: 300px;
+    }
+    .container img{
+        width: 250px;
+        height: 150px;
+    }
+    .adventure img{
+        height:150px;
+        width: 150px;
+    }
+    .adventure h4{
+        width: 200px;
+    }
+    .trip img{
+        height:150px;
+        width: 150px;
+    }
+    .place img{
+        height:150px;
+        width: 150px;
+    }
+    .place h1{
+        font-size: 17px;
+    }
+    .winner img{
+        width: 800px;
+        height: 400px;
+    }
+    .winner__text{
+        margin-top: 100px;
+    }
+    .footer{
+        width: 700px;
+    }
+    .footer-2{
+        width: 700px;
+    } 
+
+}
+@media screen and (max-width:600px){
+    .navbar{
+        font-size: 8px;
+    }
+    .navbar__s1{
+        width: 50px;
+    }
+    .navbar__s2 h4{
+        width:50px;
+    }
+    .navbar__s3 P{
+    width: 30px;
+    }
+    .categories{
+        font-size: 7.5px;
+    }
+    .searchbar{
+        width: 230px;
+        font-size: 9px;
+    }
+    .searchbar__input{
+        font-size: 9px;
+    }
+    .image{
+        width: 600px;
+    }
+    .image__text{
+        font-size: 8px;
+    }
+    .choices img{
+        width: 100px;
+        height: 100px;
+    }
+.explore h4{
+    width: 100px;
+}
+    .explore img{
+        width: 100px;
+        height: 100px;
+    }
+    .container{
+        width: 580px;
+        height: 290px;
+        align-items: center;
+    }
+    .container img{
+        width: 150px;
+        height: 150px;
+    }
+    .container__txt{
+        position: relative;
+        right: 100px;
+    }
+    .adventure img{
+        height:100px;
+        width: 100px;
+    }
+    .adventure h4{
+        width: 100px;
+    }
+    .trip img{
+        height:100px;
+        width: 100px;
+    }
+    .trip h1{
+        font-size: 13px;
+    }
+    .place img{
+        height:100px;
+        width: 100px;
+    }
+    .place h1{
+        font-size: 11.5px;
+    }
+    .winner img{
+        width: 600px;
+        height: 300px;
+    }
+    .winner__text{
+        margin-top: 160px;
+        font-size: 8px;
+    }
+    .footer{
+        width: 600px;
+    }
+    .footer-2{
+        width: 600px;
+    }
 }
